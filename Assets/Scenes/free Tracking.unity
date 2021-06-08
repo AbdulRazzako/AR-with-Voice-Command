@@ -711,7 +711,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_PlanePrefab: {fileID: 0}
-  m_DetectionMode: -1
+  m_DetectionMode: 1
 --- !u!114 &448468217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2555,6 +2555,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56890234f62d2c34b91a2a282fc87776, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pants:
+  - {fileID: 3713080690416102750, guid: f0046e31d08f07b40bc69675ebb265b0, type: 3}
+  - {fileID: 8252594173941057182, guid: 0e9d81f28e17bbe41997e81043b37299, type: 3}
+  - {fileID: 6135813529224156242, guid: e294edcaa403c374dab1ea2009ba8d28, type: 3}
+  - {fileID: 4373356171665329360, guid: 56149eff88c136042b665d060a55bc6e, type: 3}
+  shirts:
+  - {fileID: 3292762306509295245, guid: 34703513b5c3f52428cc5ebb78c5b897, type: 3}
+  - {fileID: 7569946249601929394, guid: b0598c97f62eefb4c8e8ade0d873d0bc, type: 3}
+  - {fileID: 4035324553431184451, guid: 7056d01260d46634b968dab706c3213e, type: 3}
+  - {fileID: 4597075259729438979, guid: e5d4d293610601744a37a432b713dd5f, type: 3}
   arObjectToSpawn: {fileID: 3292762306509295245, guid: 34703513b5c3f52428cc5ebb78c5b897, type: 3}
   placementIndicator: {fileID: 138780583}
   redObject: {fileID: 7569946249601929394, guid: b0598c97f62eefb4c8e8ade0d873d0bc, type: 3}

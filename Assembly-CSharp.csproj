@@ -36,9 +36,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\imagetracking1.cs" />
      <Compile Include="Assets\SpeechAndText\Scripts\TextToSpeech.cs" />
      <Compile Include="Assets\SpeechAndText\Scripts\SpeechToText.cs" />
      <Compile Include="Assets\SpeechAndText\Sample\SpeechButton.cs" />
+     <Compile Include="Assets\Scripts\sceneManager.cs" />
      <Compile Include="Assets\Scripts\ClickHandler.cs" />
      <Compile Include="Assets\Scripts\TextGetter.cs" />
      <Compile Include="Assets\Scripts\VoiceController.cs" />
@@ -49,7 +51,6 @@
      <Compile Include="Assets\Scripts\ARPlacement.cs" />
      <Compile Include="Assets\Scripts\ImageTracking.cs" />
      <Compile Include="Assets\SpeechAndText\Sample\AndroidDebug.cs" />
-     <Compile Include="Assets\Scripts\sceneManager.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

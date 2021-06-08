@@ -15,11 +15,11 @@ C:/Users/zackm/Desktop/arpractice
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49728
+49675
 Successfully changed project path to: C:/Users/zackm/Desktop/arpractice
 C:/Users/zackm/Desktop/arpractice
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.99 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 66.78 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.3f1 (8ff31bc5bf5b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Resources/UnitySubsystems
@@ -35,350 +35,83 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001506 seconds.
+Registered in 0.004200 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 38.74 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 72.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.187 seconds
+- Completed reload, in  2.667 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000842 seconds.
+Registered in 0.000847 seconds.
 Begin MonoManager ReloadAssembly
 Error: Could not load signature of BuildPostProcessor:AddFrameworks due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 
 Unloading broken assembly Library/ScriptAssemblies/Assembly-CSharp-Editor.dll, this assembly can cause crashes in the runtime
 
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 39.34 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 96.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.248 seconds
+- Completed reload, in  2.489 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1516 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.9 MB.
+System memory in use after: 70.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1954.
+Total: 2.931400 ms (FindLiveObjects: 0.312900 ms CreateObjectMapping: 0.147300 ms MarkObjects: 2.301500 ms  DeleteObjects: 0.168000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Baggy T 1 red ITrack.prefab
+  artifactKey: Guid(6fd0ffa5eed8da348a0db6c8952b6d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baggy T 1 red ITrack.prefab using Guid(6fd0ffa5eed8da348a0db6c8952b6d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140e2eeca4a0a2291d9fd3977bf77348') in 0.213736 seconds
+  Import took 0.217949 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001037 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of BuildPostProcessor:AddFrameworks due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/Assembly-CSharp-Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.774 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1501 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.0 MB.
-System memory in use after: 69.0 MB.
+Unloading 1495 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.4 MB.
+System memory in use after: 72.5 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1939.
-Total: 2.539200 ms (FindLiveObjects: 0.262100 ms CreateObjectMapping: 0.075700 ms MarkObjects: 1.969900 ms  DeleteObjects: 0.229400 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Baggy T 1 green.prefab
-  artifactKey: Guid(7056d01260d46634b968dab706c3213e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Baggy T 1 green.prefab using Guid(7056d01260d46634b968dab706c3213e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d074126c1f0e7ce93cf61f00313b06') in 0.193469 seconds
-  Import took 0.197690 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.443422 seconds.
-  path: Assets/Baggy T 1 blue.prefab
-  artifactKey: Guid(e5d4d293610601744a37a432b713dd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Baggy T 1 blue.prefab using Guid(e5d4d293610601744a37a432b713dd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc1b16001e0278d20b41a8cf8d1eacd') in 0.045598 seconds
-  Import took 0.049802 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.594551 seconds.
-  path: Assets/Baggy T 1 red.prefab
-  artifactKey: Guid(b0598c97f62eefb4c8e8ade0d873d0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Baggy T 1 red.prefab using Guid(b0598c97f62eefb4c8e8ade0d873d0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34b3c52b86d3379dd00a46b5c33db55') in 0.032042 seconds
-  Import took 0.037053 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.939423 seconds.
-  path: Assets/Baggy T 1.prefab
-  artifactKey: Guid(34703513b5c3f52428cc5ebb78c5b897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Baggy T 1.prefab using Guid(34703513b5c3f52428cc5ebb78c5b897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e5ae19c02fda1c0d93ae0a10928704') in 0.044610 seconds
-  Import took 0.050346 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 231.743207 seconds.
-  path: Assets/Scenes/main menu.unity
-  artifactKey: Guid(f5f42af10320d944b9edde0cff8eff41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/main menu.unity using Guid(f5f42af10320d944b9edde0cff8eff41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f41c84cd9651e71943ce040e4459548') in 0.004316 seconds
-  Import took 0.009997 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.585838 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b989d7789258705ed370d3bb56ae8f7c') in 0.003011 seconds
-  Import took 0.006595 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 516.196308 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3feff5fae10247456117a9ccebeb351d') in 0.005975 seconds
-  Import took 0.010310 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007168 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3feff5fae10247456117a9ccebeb351d') in 0.002544 seconds
-  Import took 0.006854 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 352.221122 seconds.
-  path: Assets/Scenes/ImageTrackingScene.unity
-  artifactKey: Guid(c49aa4b7c46965345a09a84cfbf61faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ImageTrackingScene.unity using Guid(c49aa4b7c46965345a09a84cfbf61faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e86cbb78e8c50050ae1bd7072af5aea') in 0.003169 seconds
-  Import took 0.006619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 482.795088 seconds.
-  path: Assets/Scripts/mainMenu.cs
-  artifactKey: Guid(6a4164e08a7843c419828d1499cc76e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/mainMenu.cs using Guid(6a4164e08a7843c419828d1499cc76e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48058280fd669db8e9541b6bc533918e') in 0.037054 seconds
-  Import took 0.041279 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001581 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of BuildPostProcessor:AddFrameworks due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Assembly-CSharp-Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.852 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1507 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.4 MB.
-System memory in use after: 72.9 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 1950.
-Total: 3.186500 ms (FindLiveObjects: 0.345900 ms CreateObjectMapping: 0.221200 ms MarkObjects: 2.150900 ms  DeleteObjects: 0.466100 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1964.
+Total: 2.588100 ms (FindLiveObjects: 0.326300 ms CreateObjectMapping: 0.145000 ms MarkObjects: 2.013700 ms  DeleteObjects: 0.101500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001136 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of BuildPostProcessor:AddFrameworks due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Assembly-CSharp-Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.204 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1507 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.5 MB.
-System memory in use after: 72.9 MB.
-
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1953.
-Total: 3.217200 ms (FindLiveObjects: 0.250200 ms CreateObjectMapping: 0.115000 ms MarkObjects: 2.258100 ms  DeleteObjects: 0.591900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 190.577116 seconds.
-  path: Assets/Scripts/mainMenu.cs
-  artifactKey: Guid(6a4164e08a7843c419828d1499cc76e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/mainMenu.cs using Guid(6a4164e08a7843c419828d1499cc76e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303faa6e407797999984da3cab872b92') in 0.005344 seconds
-  Import took 0.008643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 98.990162 seconds.
-  path: Assets/Scripts/sceneManager.cs
-  artifactKey: Guid(6a4164e08a7843c419828d1499cc76e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/sceneManager.cs using Guid(6a4164e08a7843c419828d1499cc76e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1665d89171c0b87b9020ffc62f039891') in 0.004090 seconds
-  Import took 0.009504 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001120 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of BuildPostProcessor:AddFrameworks due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Assembly-CSharp-Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.333 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1507 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.5 MB.
-System memory in use after: 72.9 MB.
-
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1956.
-Total: 3.052700 ms (FindLiveObjects: 0.257500 ms CreateObjectMapping: 0.118200 ms MarkObjects: 2.152400 ms  DeleteObjects: 0.505300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 164.813291 seconds.
-  path: Assets/Scripts/mainMenu.cs
-  artifactKey: Guid(8fc07608cf3ea6b44832a11e12dd514f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/mainMenu.cs using Guid(8fc07608cf3ea6b44832a11e12dd514f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdd138470f0635cd368aa5495ec15c7') in 0.007745 seconds
-  Import took 0.012670 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000795 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of BuildPostProcessor:AddFrameworks due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Assembly-CSharp-Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.242 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1507 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.5 MB.
-System memory in use after: 72.9 MB.
-
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1959.
-Total: 3.291000 ms (FindLiveObjects: 0.365600 ms CreateObjectMapping: 0.131400 ms MarkObjects: 2.292200 ms  DeleteObjects: 0.498900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001173 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of BuildPostProcessor:AddFrameworks due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Assembly-CSharp-Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.244 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1507 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.5 MB.
-System memory in use after: 72.9 MB.
-
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1962.
-Total: 3.892900 ms (FindLiveObjects: 0.625000 ms CreateObjectMapping: 0.338800 ms MarkObjects: 2.427500 ms  DeleteObjects: 0.499500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 120.426587 seconds.
-  path: Assets/Scenes/freeimagetracking.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/freeimagetracking.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6f694b5b0cffa7edeb231977e5cf42') in 0.020027 seconds
-  Import took 0.024846 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.156914 seconds.
-  path: Assets/Scenes/free Tracking.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/free Tracking.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70b5176b15bc0ba321d8416f7207e3f') in 0.005637 seconds
-  Import took 0.010372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 417.329567 seconds.
-  path: Assets/Scenes/free Tracking.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/free Tracking.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf6e2a97e01f21483f725a0734e549a') in 0.004754 seconds
-  Import took 0.010506 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.469140 seconds.
-  path: Assets/Scenes/ImageTrackingScene.unity
-  artifactKey: Guid(c49aa4b7c46965345a09a84cfbf61faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ImageTrackingScene.unity using Guid(c49aa4b7c46965345a09a84cfbf61faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d816b3cfe1b09e8032abfc0f79ff32') in 0.004504 seconds
-  Import took 0.008900 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.030482 seconds.
-  path: Assets/Scenes/main menu.unity
-  artifactKey: Guid(f5f42af10320d944b9edde0cff8eff41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/main menu.unity using Guid(f5f42af10320d944b9edde0cff8eff41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa54a59a107a9e0364ac2bd5ac731ed5') in 0.004304 seconds
-  Import took 0.008913 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.54 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 44.0 MB.
-System memory in use after: 43.5 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 1963.
-Total: 4.906900 ms (FindLiveObjects: 0.332700 ms CreateObjectMapping: 0.098700 ms MarkObjects: 3.398400 ms  DeleteObjects: 1.074300 ms)
-
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - ARPlacement
+    - ImageTracking
     - RotateandScaleSlider
     - SampleSpeechToText
     - SpeechButton
@@ -9,6 +10,7 @@ ScriptsOnlyBuild:
     - TextSpeech.SpeechToText
     - TextSpeech.TextToSpeech
     - VoiceController
+    - imagetracking1
     - onClickColor
     - sceneManager
     Unity.Rider.Editor.dll:
@@ -85,43 +87,47 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1510}
+      Script: {instanceID: 1536}
     - Class: 114
-      Script: {instanceID: 1594}
+      Script: {instanceID: 1620}
     - Class: 114
-      Script: {instanceID: 1994}
+      Script: {instanceID: 1776}
     - Class: 114
-      Script: {instanceID: 2286}
+      Script: {instanceID: 2022}
     - Class: 114
-      Script: {instanceID: 2312}
+      Script: {instanceID: 2314}
     - Class: 114
-      Script: {instanceID: 2386}
+      Script: {instanceID: 2340}
     - Class: 114
-      Script: {instanceID: 2538}
+      Script: {instanceID: 2414}
     - Class: 114
-      Script: {instanceID: 2716}
+      Script: {instanceID: 2510}
     - Class: 114
-      Script: {instanceID: 2812}
+      Script: {instanceID: 2568}
     - Class: 114
-      Script: {instanceID: 2966}
+      Script: {instanceID: 2746}
     - Class: 114
-      Script: {instanceID: 2970}
+      Script: {instanceID: 2842}
     - Class: 114
-      Script: {instanceID: 3060}
+      Script: {instanceID: 2996}
     - Class: 114
-      Script: {instanceID: 3380}
+      Script: {instanceID: 3000}
     - Class: 114
-      Script: {instanceID: 3612}
+      Script: {instanceID: 3090}
     - Class: 114
-      Script: {instanceID: 3648}
+      Script: {instanceID: 3410}
     - Class: 114
-      Script: {instanceID: 3866}
+      Script: {instanceID: 3642}
     - Class: 114
-      Script: {instanceID: 3916}
+      Script: {instanceID: 3678}
     - Class: 114
-      Script: {instanceID: 4228}
+      Script: {instanceID: 3896}
     - Class: 114
-      Script: {instanceID: 17996}
+      Script: {instanceID: 3946}
+    - Class: 114
+      Script: {instanceID: 4258}
+    - Class: 114
+      Script: {instanceID: 4262}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -164,57 +170,57 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1510}
+      Script: {instanceID: 1536}
     - Class: 114
-      Script: {instanceID: 1594}
+      Script: {instanceID: 1620}
     - Class: 114
-      Script: {instanceID: 1658}
+      Script: {instanceID: 1684}
     - Class: 114
-      Script: {instanceID: 1994}
+      Script: {instanceID: 2022}
     - Class: 114
-      Script: {instanceID: 2132}
+      Script: {instanceID: 2160}
     - Class: 114
-      Script: {instanceID: 2174}
+      Script: {instanceID: 2202}
     - Class: 114
-      Script: {instanceID: 2286}
+      Script: {instanceID: 2314}
     - Class: 114
-      Script: {instanceID: 2312}
+      Script: {instanceID: 2340}
     - Class: 114
-      Script: {instanceID: 2344}
+      Script: {instanceID: 2372}
     - Class: 114
-      Script: {instanceID: 2386}
+      Script: {instanceID: 2414}
     - Class: 114
-      Script: {instanceID: 2538}
+      Script: {instanceID: 2510}
     - Class: 114
-      Script: {instanceID: 2716}
+      Script: {instanceID: 2568}
     - Class: 114
-      Script: {instanceID: 2812}
+      Script: {instanceID: 2746}
     - Class: 114
-      Script: {instanceID: 2966}
+      Script: {instanceID: 2842}
     - Class: 114
-      Script: {instanceID: 2970}
+      Script: {instanceID: 2996}
     - Class: 114
-      Script: {instanceID: 3060}
+      Script: {instanceID: 3000}
     - Class: 114
-      Script: {instanceID: 3330}
+      Script: {instanceID: 3090}
     - Class: 114
-      Script: {instanceID: 3380}
+      Script: {instanceID: 3360}
     - Class: 114
-      Script: {instanceID: 3418}
+      Script: {instanceID: 3410}
     - Class: 114
-      Script: {instanceID: 3612}
+      Script: {instanceID: 3448}
     - Class: 114
-      Script: {instanceID: 3648}
+      Script: {instanceID: 3642}
     - Class: 114
-      Script: {instanceID: 3732}
+      Script: {instanceID: 3678}
     - Class: 114
-      Script: {instanceID: 3866}
+      Script: {instanceID: 3762}
     - Class: 114
-      Script: {instanceID: 3912}
+      Script: {instanceID: 3896}
     - Class: 114
-      Script: {instanceID: 4174}
+      Script: {instanceID: 3942}
     - Class: 114
-      Script: {instanceID: 17996}
+      Script: {instanceID: 4204}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -253,29 +259,29 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1510}
+      Script: {instanceID: 1536}
     - Class: 114
-      Script: {instanceID: 1732}
+      Script: {instanceID: 1758}
     - Class: 114
-      Script: {instanceID: 1988}
+      Script: {instanceID: 2016}
     - Class: 114
-      Script: {instanceID: 1994}
+      Script: {instanceID: 2022}
     - Class: 114
-      Script: {instanceID: 2286}
+      Script: {instanceID: 2314}
     - Class: 114
-      Script: {instanceID: 2386}
+      Script: {instanceID: 2414}
     - Class: 114
-      Script: {instanceID: 2538}
+      Script: {instanceID: 2510}
     - Class: 114
-      Script: {instanceID: 2716}
+      Script: {instanceID: 2568}
     - Class: 114
-      Script: {instanceID: 2812}
+      Script: {instanceID: 2746}
     - Class: 114
-      Script: {instanceID: 3750}
+      Script: {instanceID: 2842}
     - Class: 114
-      Script: {instanceID: 4018}
+      Script: {instanceID: 3780}
     - Class: 114
-      Script: {instanceID: 17996}
+      Script: {instanceID: 4048}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -389,6 +395,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 80caf97061078a314de10487ac0efdce
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: imagetracking1
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -527,6 +539,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: sceneManager
   - hash:
       serializedVersion: 2
       Hash: 0c5108545fb925730d4d5887ebcdd20c
@@ -679,7 +697,7 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
-      Hash: 94cbc349a5be24bc8626ea4e5e86a9d1
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TextGetter
@@ -961,7 +979,7 @@ ScriptsOnlyBuild:
     className: RotateAnim
   - hash:
       serializedVersion: 2
-      Hash: 70e743b937cbb6be27913897344565a4
+      Hash: 29cc6a0a41a085cf9d44a1572cb66c84
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ARPlacement
@@ -1079,15 +1097,9 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: sceneManager
   platform: 13
   scenePathNames:
   - Assets/Scenes/main menu.unity
   - Assets/Scenes/free Tracking.unity
   - Assets/Scenes/ImageTrackingScene.unity
-  playerPath: C:/Users/zackm/Desktop/arpractice/mainmenu.apk
+  playerPath: C:/Users/zackm/Desktop/arpractice/addedmodels.apk

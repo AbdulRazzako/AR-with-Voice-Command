@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class TextGetter : MonoBehaviour
 {
     
-    public ARPlacement ar;
+    // public ARPlacement ar;
      private Text uiText;
      //public GameObject cube;
     // Start is called before the first frame update

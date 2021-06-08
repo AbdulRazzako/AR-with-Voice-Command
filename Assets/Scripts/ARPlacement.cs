@@ -10,19 +10,27 @@ public class ARPlacement : MonoBehaviour
 {
     new Renderer renderer;
     [SerializeField]
+
+    public List<GameObject> pants;
+    public List<GameObject> shirts;
     public GameObject arObjectToSpawn;
     public GameObject placementIndicator;
     private GameObject spawnedObject;
+    bool isShirt = true;
 
     private Pose PlacementPose;
     private ARRaycastManager aRRaycastManager;
     private bool placementPoseIsValid = false;
 
     //colour change
-        public GameObject redObject;
-        public GameObject greenObject;
-        public GameObject blueObject;
+    public GameObject redObject;
+    public GameObject greenObject;
+    public GameObject blueObject;
 
+    Vector3 scaleup = new Vector3(3.5f,3.5f,3.5f);
+
+
+    Vector3 scaledown = new Vector3(3.5f,3.5f,3.5f);
 
     //ui text for voice command
     private Text uiText;
@@ -30,7 +38,7 @@ public class ARPlacement : MonoBehaviour
     {
         aRRaycastManager = FindObjectOfType<ARRaycastManager>();
         uiText = GameObject.Find("inputtext").GetComponent<Text>();
-        
+
     }
 
     // Update is called once per frame
@@ -42,25 +50,55 @@ public class ARPlacement : MonoBehaviour
             ARPlaceObject(arObjectToSpawn);
         }
 
-        if(command.Contains("red"))
+        if (command.ToLower().Contains("red"))
         {
-            red();
-            uiText.text ="ok";
+            if (isShirt == true)
+            {
+                shirtcolour(1);
+            }else{
+                pantcolour(1);
+            }
+
+            uiText.text = "ok";
         }
-        if(command.Contains("white"))
+        if (command.ToLower().Contains("white"))
         {
-            white();
-            uiText.text ="ok";
+            if (isShirt == true)
+            {
+                shirtcolour(0);
+            }else{
+                pantcolour(0);
+            }
+
+
+            uiText.text = "ok";
         }
-        if(command.Contains("green"))
+        if (command.ToLower().Contains("green"))
         {
-            green();
-            uiText.text ="ok";
+            if (isShirt == true)
+            {
+                shirtcolour(2);
+            }else{
+                pantcolour(2);
+            }
+
+            uiText.text = "ok";
         }
-        if(command.Contains("blue"))
+        if (command.ToLower().Contains("blue"))
         {
-            blue();
-            uiText.text ="ok";
+            if (isShirt == true)
+            {
+                shirtcolour(3);
+            }else{
+                pantcolour(3);
+            }
+
+            uiText.text = "ok";
+        }
+        if (command.ToLower().Contains("model"))
+        {
+            changemodel();
+            uiText.text = "OK";
         }
 
 
@@ -81,33 +119,80 @@ public class ARPlacement : MonoBehaviour
             placementIndicator.SetActive(false);
         }
     }
-    public void red(){
-        redObject.transform.position = PlacementPose.position;
-        redObject.transform.rotation = PlacementPose.rotation;
-        redObject.transform.localScale = spawnedObject.transform.localScale;
+
+    public void pantcolour(int index){
+        pants[index].transform.position = PlacementPose.position;
+        pants[index].transform.rotation = PlacementPose.rotation;
+        pants[index].transform.localScale=spawnedObject.transform.localScale;
         Destroy(spawnedObject);
-        ARPlaceObject(redObject);
+        ARPlaceObject(pants[index]);
+
     }
-    public void green(){
-        greenObject.transform.position = PlacementPose.position;
-        greenObject.transform.rotation = PlacementPose.rotation;
-        greenObject.transform.localScale = spawnedObject.transform.localScale;
+    public void shirtcolour(int index){
+        shirts[index].transform.position = PlacementPose.position;
+        shirts[index].transform.rotation = PlacementPose.rotation;
+        shirts[index].transform.localScale=spawnedObject.transform.localScale;
         Destroy(spawnedObject);
-        ARPlaceObject(greenObject);
+        ARPlaceObject(shirts[index]);
+
     }
-    public void blue(){
-        blueObject.transform.position = PlacementPose.position;
-        blueObject.transform.rotation = PlacementPose.rotation;
-        blueObject.transform.localScale = spawnedObject.transform.localScale;
-        Destroy(spawnedObject);
-        ARPlaceObject(blueObject);
-    }
-    public void white(){
-        arObjectToSpawn.transform.position = PlacementPose.position;
-        arObjectToSpawn.transform.rotation = PlacementPose.rotation;
-        arObjectToSpawn.transform.localScale = spawnedObject.transform.localScale;
-        Destroy(spawnedObject);
-        ARPlaceObject(arObjectToSpawn);
+    // public void redshirt()
+    // {
+        
+    //     redObject.transform.position = PlacementPose.position;
+    //     redObject.transform.rotation = PlacementPose.rotation;
+    //     redObject.transform.localScale = spawnedObject.transform.localScale;
+    //     Destroy(spawnedObject);
+    //     ARPlaceObject(redObject);
+    // }
+    // public void greenshirt()
+    // {
+    //     // isShirt = true;
+    //     greenObject.transform.position = PlacementPose.position;
+    //     greenObject.transform.rotation = PlacementPose.rotation;
+    //     greenObject.transform.localScale = spawnedObject.transform.localScale;
+    //     Destroy(spawnedObject);
+    //     ARPlaceObject(greenObject);
+    // }
+    // public void blueshirt()
+    // {
+    //     // isShirt = true;
+    //     blueObject.transform.position = PlacementPose.position;
+    //     blueObject.transform.rotation = PlacementPose.rotation;
+    //     blueObject.transform.localScale = spawnedObject.transform.localScale;
+    //     Destroy(spawnedObject);
+    //     ARPlaceObject(blueObject);
+    // }
+    // public void whiteshirt()
+    // {
+    //     // isShirt = true;
+    //     arObjectToSpawn.transform.position = PlacementPose.position;
+    //     arObjectToSpawn.transform.rotation = PlacementPose.rotation;
+    //     arObjectToSpawn.transform.localScale = spawnedObject.transform.localScale;
+    //     Destroy(spawnedObject);
+    //     ARPlaceObject(arObjectToSpawn);
+    // }
+    void changemodel()
+    {
+        if (isShirt == true)
+        {
+            isShirt = false;
+            pants[0].transform.position = PlacementPose.position;
+            pants[0].transform.rotation = PlacementPose.rotation;
+            pants[0].transform.localScale=spawnedObject.transform.localScale - scaleup;
+            Destroy(spawnedObject);
+            ARPlaceObject(pants[0]);
+        }
+        else
+        {
+            isShirt = true;
+            arObjectToSpawn.transform.position = PlacementPose.position;
+            arObjectToSpawn.transform.rotation = PlacementPose.rotation;
+            arObjectToSpawn.transform.localScale = spawnedObject.transform.localScale + scaleup;
+            Destroy(spawnedObject);
+            ARPlaceObject(arObjectToSpawn);
+
+        }
     }
 
     void UpdatePlacementPose()
@@ -125,9 +210,9 @@ public class ARPlacement : MonoBehaviour
 
     void ARPlaceObject(GameObject arObjectToSpawn)
     {
-        
-        
-        spawnedObject = Instantiate(arObjectToSpawn, PlacementPose.position, PlacementPose.rotation * Quaternion.Euler(0,180,0));
+
+
+        spawnedObject = Instantiate(arObjectToSpawn, PlacementPose.position, PlacementPose.rotation * Quaternion.Euler(0, 180, 0));
     }
 
 
